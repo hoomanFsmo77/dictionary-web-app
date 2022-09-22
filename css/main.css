@@ -23,14 +23,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: auto;
+    padding: 2rem;
 }
 .dictionary_container{
     padding: 0.5rem;
      padding-bottom: 3rem;
     background-color: white;
     box-shadow: 0 1px 46px rgba(0,0,0,0.1);
-    width: 500px;
+    width: 700px;
     height: auto;
     border-radius: 15px;
     display: flex;
@@ -85,6 +86,7 @@ button:hover{
     align-items: center;
     justify-content: center;
     z-index: 5;
+    top: 0;
 }
 .pre_loader div{
     width: 60px;
@@ -138,6 +140,10 @@ h1{
 .definition_container div:first-child i{
     font-size: 1.2rem;
     cursor: pointer;
+    color: rgba(108,86,157,0.6);
+}
+.purple{
+    color: rgba(108,86,157,0.6) ;
 }
 .phonetic{
     margin-right: 0.6rem;
@@ -145,3 +151,11 @@ h1{
 .definition{
     width: 90%;
 }
+p{
+    line-height: 1.5;
+    margin-bottom: 0.3rem;
+    margin-top: 0.3rem;
+}
+
+
+
